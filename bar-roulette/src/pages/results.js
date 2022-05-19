@@ -1,12 +1,15 @@
-import react from 'React'
-import footer from '../components/general/footer'
-import header from '../components/general/header'
+import React from 'react'
+import { Footer } from "../components/general/footer";
+import EmailComponent from '../components/results/inputPeople';
+//import header from '../components/general/header'
 
-const ResultPage = () =>{
-    <div>
-        <header />
-
-        <footer />
-    </div>
-
+const ResultPage = () => {
+    return (
+        <div>
+            <EmailComponent />
+            <Footer />
+        </div>
+    );
 }
+
+export default ResultPage;

@@ -1,5 +1,6 @@
 import "./css/App.css";
 import "./css/footer.css";
+import ResultPage from "./pages/results";
 
 import { Footer } from "./components/general/footer";
 
