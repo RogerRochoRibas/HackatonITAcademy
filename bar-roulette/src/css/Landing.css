@@ -1,0 +1,42 @@
+.wholeLanding {
+    height: 100%;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-image: url('../img/headerBar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 22rem;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+
+    color: whitesmoke;
+    font-size: xx-large;
+}
+.descriptionContent{
+    font-weight: 400;
+    font-size: medium;
+}
+.form-select{
+    width: 100px;
+
+}
+.selectorAndButton{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 40px;
+}
+.barriosCards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
