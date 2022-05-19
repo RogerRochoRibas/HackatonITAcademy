@@ -3,15 +3,15 @@ import "./css/footer.css";
 import "./css/header.css";
 
 import { Footer } from "./components/general/footer";
-import Landing from "./pages/Landing";
+import { Landing } from "./pages/Landing";
 import { Header } from "./components/general/header";
 
 
 function App() {
   return (
     <div className="App">
+    <Header />
       <Landing />
-      <Header />
       <div><h1>Welcome</h1></div>
 
       <Footer />

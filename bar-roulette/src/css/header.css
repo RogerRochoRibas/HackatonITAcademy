@@ -1,4 +1,4 @@
-.header {
+.navbar {
   color: #ebebeb;
   position: relative;
   background: #264653;
@@ -6,15 +6,15 @@
   text-align: start;
 }
 
-.header a:hover {
+.navbar a:hover {
   color: #0085ff;
 }
 
-.header h1 {
+.navbar h1 {
   margin: 0px 0px 10px 30px;
 }
 
-.header a {
+.navbar a {
   color: #ebebeb;
   text-decoration: none;
   font-size: 24px;

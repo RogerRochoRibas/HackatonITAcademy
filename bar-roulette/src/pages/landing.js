@@ -6,7 +6,7 @@ import roger from '../img/roger.jpg'
 import paulo from '../img/paulo.jpeg'
 import inaki from '../img/inaki.png'
 
-const Landing = () => {
+export const Landing = () => {
 
     const barrios = [
         {
@@ -100,5 +100,3 @@ const Landing = () => {
         </div>
     )
 }
-
-export default Landing
