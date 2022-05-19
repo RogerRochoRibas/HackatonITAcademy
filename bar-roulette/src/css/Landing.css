@@ -21,8 +21,8 @@
     font-size: xx-large;
 }
 .descriptionContent{
-    font-weight: 500;
-    font-size: large;
+    font-weight: 400;
+    font-size: medium;
 }
 .form-select{
     width: 100px;
@@ -31,6 +31,12 @@
 .selectorAndButton{
     display: flex;
     justify-content: center;
-    justify-content: space-between;
-    
+}
+.card{
+    margin: 40px;
+}
+.barriosCards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
