@@ -1,8 +1,8 @@
-import react from 'react'
+
 
 import { useForm } from "react-hook-form";
 
-export default function EmailComponent() {
+export default function inputPeople() {
   const { register, handleSubmit } = useForm();
   const onSubmit = data => console.log(data);
    

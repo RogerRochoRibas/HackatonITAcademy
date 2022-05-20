@@ -1,14 +1,24 @@
 import "./css/App.css";
 import "./css/footer.css";
 import ResultPage from "./pages/results";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 import { Footer } from "./components/general/footer";
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />}> 
+          <Route path="results" element={<ResultPage />}/>  
+        </Route>
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 
