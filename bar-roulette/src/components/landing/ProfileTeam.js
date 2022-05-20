@@ -2,7 +2,7 @@ import React from 'react'
 import '../../css/ProfileTeam.css'
 
 
-const ProfileTeam = ({name, fotoPerfil}) => {
+export const ProfileTeam = ({name, fotoPerfil}) => {
   return (
     <div>
         <img className='profilePic mx-5'
@@ -11,5 +11,3 @@ const ProfileTeam = ({name, fotoPerfil}) => {
     </div>
   )
 }
-
-export default ProfileTeam

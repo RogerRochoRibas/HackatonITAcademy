@@ -14,3 +14,8 @@ body {
 .App {
   text-align: center;
 }
+
+#logo {
+  height: 80px;
+  width:auto;
+}
