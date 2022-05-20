@@ -66,14 +66,14 @@ export const Landing = () => {
           <option value="16">16</option>
         </select>
         <Link to="results">
-          <button to="results" type="button" class="btn btn-danger ms-2">
+          <button to="results" type="button" className="btn btn-danger ms-2">
             Jugar
           </button>
         </Link>
       </div>
       <div className="barriosCards">
         {barrios.map((barrio) => (
-          <div className="card" style={{ width: "18rem" }}>
+          <div key={barrio.nombre} className="card" style={{ width: "18rem" }}>
             <img src={barrio.foto} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">{barrio.nombre}</h5>

@@ -1,6 +1,6 @@
 import React from "react";
-import EmailComponent from "../components/results/inputPeople";
-import { ResultsBarLocation } from "../components/results/resultsBarLocation";
+import EmailComponent from "../components/results/InputPeople";
+import { ResultsBarLocation } from "../components/results/ResultsBarLocation";
 
 const ResultPage = () => {
   return (

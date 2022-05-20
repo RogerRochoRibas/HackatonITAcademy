@@ -2,10 +2,10 @@ import logo from '../../img/Logo_Roulette.png'
 
 export function Header() {
     return (
-      <div class="navbar">
-          <div class="home">
+      <div className="navbar">
+          <div className="home">
             <h1>
-              <a href="/"><img id='logo' src={logo}/></a>
+              <div><img id='logo' src={logo} alt='logo'/></div>
             </h1>
         </div>
       </div>

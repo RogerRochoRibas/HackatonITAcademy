@@ -1,14 +1,14 @@
 export function Footer() {
   return (
-    <div class="footer">
-      <div class="copyright">
-        <div class="copy-text">
+    <div className="footer">
+      <div className="copyright">
+        <div className="copy-text">
           <p>
-            &copy; <a href="#">All Rights Reserved.</a>
+           All Rights Reserved.
           </p>
-          <p>
-            <a href="#">Github Repository.</a>
-          </p>
+
+          <div>  <p>Github Repository. </p></div>
+
         </div>
       </div>
     </div>
