@@ -1,14 +1,14 @@
 import "./css/App.css";
 import "./css/footer.css";
 import "./css/header.css";
-import "./css/resultsPage.css";
+import "./css/ResultsPage.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import { Footer } from "./components/general/footer";
+import { Footer } from "./components/general/Footer";
 import { Landing } from "./pages/Landing";
-import { Header } from "./components/general/header";
-import ResultPage from "./pages/results";
+import { Header } from "./components/general/Header";
+import ResultPage from "./pages/Results";
 
 export default function App() {
   return (
