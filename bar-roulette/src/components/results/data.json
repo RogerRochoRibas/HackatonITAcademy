@@ -1,0 +1,26 @@
+[
+    {
+        "id": "62865d0125c1094ea966189d",
+        "codBarrio": 2,
+        "nomBarrio": "Gotic",
+        "direccion": "PL. REIAL, 10",
+        "area": 36.0,
+        "mesas": 16,
+        "sillas": 34,
+        "lat": 41.380222,
+        "lon": null,
+        "likes": 0
+    },
+    {
+        "id": "62867287dd4b3f1eb67bdeb0",
+        "codBarrio": 1,
+        "nomBarrio": "Raval",
+        "direccion": "C. EST, 9",
+        "area": 9.0,
+        "mesas": 4,
+        "sillas": 16,
+        "lat": 41.37749,
+        "lon": 2.1734035,
+        "likes": 0
+    }
+]

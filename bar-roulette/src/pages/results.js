@@ -3,7 +3,7 @@ import EmailComponent from '../components/results/inputPeople';
 
 const ResultPage = () => {
     return (
-        <div>
+        <div id='resultsPage'>
             <EmailComponent />
         </div>
     );
