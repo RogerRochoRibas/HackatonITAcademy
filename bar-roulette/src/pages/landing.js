@@ -2,11 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ProfileTeam } from "../components/landing/ProfileTeam";
 import "../css/Landing.css";
-import dizzy from "../img/dizzy.jpg";
+// import dizzy from "../img/dizzy.jpg";
 import roger from "../img/roger.jpg";
 import paulo from "../img/paulo.jpeg";
 import inaki from "../img/inaki.png";
 import lucas from "../img/lucas.jpg";
+import natalia from "../img/natalia.jpg";
 
 export const Landing = () => {
   const barrios = [
@@ -88,7 +89,7 @@ export const Landing = () => {
         <ProfileTeam name={"Roger Rocho"} fotoPerfil={roger} />
         <ProfileTeam name={"Paulo Almeida"} fotoPerfil={paulo} />
         <ProfileTeam name={"Lucas Rilho"} fotoPerfil={lucas} />
-        <ProfileTeam name={"Natalia SK"} fotoPerfil={dizzy} />
+        <ProfileTeam name={"Natalia SK"} fotoPerfil={natalia} />
       </div>
     </div>
   );
