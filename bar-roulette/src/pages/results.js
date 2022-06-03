@@ -1,6 +1,6 @@
 import React from 'react'
-import { Footer } from "../components/general/footer";
-import inputPeople from '../components/results/inputPeople';
+import { Footer } from "../components/general/Footer";
+import inputPeople from '../components/results/InputPeople';
 //import header from '../components/general/header'
 
 const barLocation = [];

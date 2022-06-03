@@ -1,21 +1,11 @@
-.footer > a {
-  transition: 0.3s;
-  text-decoration: none!important;
-}
-
-.footer > a:hover,
-.footer > a:active,
-.footer > a:focus {
-  outline: none;
-  text-decoration: none;
-}
-
 .footer {
   color: #ebebeb;
   position: relative;
-  background: #264653;
+  background: #214452;
   font-size: 16px;
   font-weight: 400;
+  bottom:0px;
+  text-align: center;
 }
 
 .footer a:hover {

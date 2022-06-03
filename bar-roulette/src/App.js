@@ -1,25 +1,26 @@
 import "./css/App.css";
 import "./css/footer.css";
-import ResultPage from "./pages/results";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import "./css/header.css";
+import "./css/resultsPage.css";
 
-import { Footer } from "./components/general/footer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-function App() {
+import { Footer } from "./components/general/Footer";
+import { Landing } from "./pages/Landing";
+import { Header } from "./components/general/Header";
+import ResultPage from "./pages/Results";
+
+export default function App() {
   return (
-    <BrowserRouter>
+  <div className="App">
+    <Router>
+      <Header />
       <Routes>
-        <Route path="/" element={<App />}> 
-          <Route path="results" element={<ResultPage />}/>  
-        </Route>
+        <Route path="/" element={<Landing />}></Route>
+        <Route path="results" element={<ResultPage/>}></Route>
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </Router>
+    </div>
   );
 }
-
-export default App;
